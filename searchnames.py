@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title( 'Streamlit - Search names')
+st.title( 'Streamlit - Buscar nombres')
 
 DATA_URL = ('dataset.csv')
 
