@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title( 'Streamlit - Buscar nombres')
 
-DATA_URL = ('dataset.csv')
+DATA_URL = ('https://firebasestorage.googleapis.com/v0/b/testing-calculator-554e7.appspot.com/o/dataset%2Fdataset.csv?alt=media&token=09e7887b-5e68-47e8-abd9-10d8c86a0c9c')
 
 @st.cache
 def load_data_byname (name):
